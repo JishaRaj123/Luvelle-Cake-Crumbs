@@ -1,0 +1,174 @@
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333;
+  background-color:  #fff5f9;
+}
+.title{
+  background-color: #ff69b4;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+
+}
+.title .logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+.navbar {
+  background-color: #fcb3d1;
+  text-align: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+a{
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: bold;
+}
+a:hover{
+    background-color: #ff69b4;
+}
+.logo1 {
+  width: 70px;
+  display: block;
+  margin: 0 auto 1rem;
+  margin-top: 20px;
+}
+nav{
+    background-color: #fcb3d1;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 60px;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 30px;
+    
+}
+.links{
+    display: flex;
+    gap: 19px;
+   
+}
+.inside-hero{
+    text-align: center;
+    color: #5e173b;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}   
+
+.cakes {
+  padding: 2rem;
+}
+
+.cakes h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.cake-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 3rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cake-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-size: 15px;
+  color: #5e173b;
+}
+.cake1{
+    width:80%;
+    height: 220px;            
+    object-fit: cover;          
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+.cake2{
+  width:80%;
+  height: 220px;             
+  object-fit: cover;          
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+} 
+
+.cake3{
+  width:80%;
+  height: 220px;             
+  object-fit: cover;          
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+} 
+.cake4{
+  width:80%;
+  height: 220px;             
+  object-fit: cover;          
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+} 
+.button {
+  text-align: center; /* centers inline elements like buttons */
+  margin-top: 2rem;
+}
+
+.btn {
+  border: none;
+  background-color: #e94187;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: #fca7df;
+}
+
+
+
+
+footer {
+  background-color: #ff69b4;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  
+  .links {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .inside-hero h2 {
+    font-size: 2rem;
+  }
+
+  .inside-hero p {
+    font-size: 1rem;
+  }
+}
